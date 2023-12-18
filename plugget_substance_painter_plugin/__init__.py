@@ -10,8 +10,8 @@ widget = None
 def show_widget():
     import plugget_qt
     global widget
-    widget = plugget_qt.PluggetWidget()
     parent = substance_painter.ui.get_main_window()
+    widget = plugget_qt.PluggetWidget(parent=parent)
     dock_widget = substance_painter.ui.add_dock_widget(widget)
     dock_widget.show()
 
