@@ -1,6 +1,10 @@
 
 # plugget_substance_painter_plugin
-A Substance Painter plugin to launch plugget UI.
+A Substance Painter plugin to launch plugget UI.  
+
+dockable widget
+![image](https://github.com/plugget/plugget-substance-painter-plugin/assets/3758308/8426b13a-5438-48a9-815d-9221407910b4)
+
 
 <!-- [![codecov](https://codecov.io/gh/plugget/plugget-substance-painter-plugin/branch/main/graph/badge.svg?token=plugget-substance-painter-plugin_token_here)](https://codecov.io/gh/plugget/plugget-substance-painter-plugin) -->
 <!-- [![CI](https://github.com/plugget/plugget-substance-painter-plugin/actions/workflows/main.yml/badge.svg)](https://github.com/plugget/plugget-substance-painter-plugin/actions/workflows/main.yml) -->
