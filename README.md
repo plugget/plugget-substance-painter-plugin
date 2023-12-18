@@ -33,20 +33,20 @@ A Substance Painter plugin template.
 7. This template is in the public domain. Choose a LICENSE for your repo
 
 ---
-# project_name
+# plugget_substance_painter_plugin
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/plugget/plugget-substance-painter-plugin/branch/main/graph/badge.svg?token=plugget-substance-painter-plugin_token_here)](https://codecov.io/gh/plugget/plugget-substance-painter-plugin)
+[![CI](https://github.com/plugget/plugget-substance-painter-plugin/actions/workflows/main.yml/badge.svg)](https://github.com/plugget/plugget-substance-painter-plugin/actions/workflows/main.yml)
 
-project_description
+Awesome plugget_substance_painter_plugin created by plugget
 
 ## Install 
 #### install plugin
-- Manually copy `project_name.py` to your plugin folder,  
+- Manually copy `plugget_substance_painter_plugin.py` to your plugin folder,  
   e.g. `C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins`
 - or pip install from this repo
 ```bash
-pip install --no-dependencies https://github.com/author_name/project_urlname/archive/refs/heads/main.zip --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins"
+pip install --no-dependencies https://github.com/plugget/plugget-substance-painter-plugin/archive/refs/heads/main.zip --target "C:\Users\USER\OneDrive\Documents\Adobe\Adobe Substance 3D Painter\python\plugins"
 ```
 #### install dependencies
 download the repo, browse to the folder with the `requirements.txt`
@@ -55,7 +55,7 @@ pip install -r requirements.txt --target "C:\Users\USER\OneDrive\Documents\Adobe
 ```
 
 ## Usage
-1. enable the plugin in Substance from the Menu `Python/project_name`
+1. enable the plugin in Substance from the Menu `Python/plugget_substance_painter_plugin`
 
 ## Development
 Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.

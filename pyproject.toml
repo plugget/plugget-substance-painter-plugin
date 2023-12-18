@@ -3,12 +3,12 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["project_name"]
+packages = ["plugget_substance_painter_plugin"]
 
 [project]
-name = "project_name"
+name = "plugget_substance_painter_plugin"
 authors = [
-    {name = "author_name"},
+    {name = "plugget"},
 ]
 description = "run py commands from buttons generated from a config"
 readme = "README.md"
@@ -30,4 +30,4 @@ version = "1.0.0"
 #my-script = "my_package.module:function"
 
 [project.urls]
-Source = "https://github.com/author_name/project_urlname"
+Source = "https://github.com/plugget/plugget-substance-painter-plugin"

@@ -1,4 +1,4 @@
 
 
 def test_base():
-    import project_name
+    import plugget_substance_painter_plugin
