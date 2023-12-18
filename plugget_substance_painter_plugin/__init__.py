@@ -19,7 +19,7 @@ def show_widget():
 def start_plugin():
     action = QtWidgets.QAction("Plugget", triggered=show_widget)
     substance_painter.ui.add_action(substance_painter.ui.ApplicationMenu.Window, action)
-    substance_ui_elements.append(Action)
+    substance_ui_elements.append(action)
 
 
 def close_plugin():
