@@ -20,10 +20,10 @@ class HelloWorld(QtWidgets.QWidget):
 
 
 def show_widget():
+    import plugget_qt
     global widget
+    widget = plugget_qt.PluggetWidget()
     parent = substance_painter.ui.get_main_window()
-    print(parent)
-    widget = HelloWorld(parent=parent)
     dock_widget = substance_painter.ui.add_dock_widget(widget)
     dock_widget.show()
 
